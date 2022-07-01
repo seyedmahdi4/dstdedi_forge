@@ -11,7 +11,7 @@
 example:
 
 run:
-- docker run --name dst -e "CLUSTER_TOKEN=....." -e "CLUSTER_NAME=reforged server' ...../dstdedi_forge:latest
+- docker run --name dst -e "CLUSTER_TOKEN=....." -e "CLUSTER_NAME=reforged server' seyedmahdi3/dstdedi_forge:latest
 
 stop:
 - docker stop dst
