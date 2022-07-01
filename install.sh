@@ -1,8 +1,4 @@
 #!/bin/bash
-
-useradd dst && \
-apt-get update && \
-apt-get install lib32gcc-s1 wget unzip libcurl3-gnutls -y
 mkdir -p /home/dst/steamcmd/ && \
 mkdir -p /home/dst/.klei/DoNotStarveTogether && \
 cd /home/dst/steamcmd/ && \
