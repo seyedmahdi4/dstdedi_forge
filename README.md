@@ -1,6 +1,6 @@
 ### Don't starve together Reforged Server
 
-##### envirement variables:
+#### envirement variables:
 
 - CLUSTER_TOKEN       -> require
 - MAX_PLAYER          -> default = 6
@@ -8,7 +8,14 @@
 - CLUSTER_DESCRIPTION -> default = This's create by Mahdi and Powered by Docker
 - CLUSTER_PASSWORD    -> default empty . Optional
 
-how to get cluster token:
+###### for pugnax (Extera wavesets)
+- PUGNAX=TRUE    -> default disable
+
+###### Hallowed forge 
+- HALLOWED=TRUE  -> default disable
+
+
+##### how to get cluster token:
 
 visit https://accounts.klei.com/account/game/servers?game=DontStarveTogether to generate server configuration files
 
@@ -22,10 +29,14 @@ klei/DoNotStarveTogether/******/Cluster_1/Master/cluster_token.txt or ....
 example:
 
 run:
-- docker run --name dst -e "CLUSTER_TOKEN=....." -e "CLUSTER_NAME=reforged server' seyedmahdi3/dstdedi_forge:latest
+- ```docker run --name dst -e "CLUSTER_TOKEN=....." -e "CLUSTER_NAME=reforged server' seyedmahdi3/dstdedi_forge:0.1```
 
+run with pugnax:
+- ```docker run --name dst -e PUGNAX=TRUE -e "CLUSTER_TOKEN=....." -e "CLUSTER_NAME=reforged server' seyedmahdi3/dstdedi_forge:0.1```
+run with hollowed:
+- ```docker run --name dst -e HALLOWED=TRUE -e "CLUSTER_TOKEN=....." -e "CLUSTER_NAME=reforged server' seyedmahdi3/dstdedi_forge:0.1```
 stop:
-- docker stop dst
+- ```docker stop dst```
 
 remove container:
-- docker rm -f dst
+- ```docker rm -f dst```
