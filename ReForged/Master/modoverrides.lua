@@ -1,62 +1,12 @@
 return {
   ["workshop-1938752683"]={
-    configuration_options={
-      ADJUST_FILTER=false,
-      BATTLESTANDARD_EFFICIENCY=1,
-      DAMAGE_NUMBER_FONT_SIZE=32,
-      DAMAGE_NUMBER_HEIGHT=40,
-      DAMAGE_NUMBER_OPTIONS="default",
-      DAMAGE_NUMBER_PLAYERS=false,
-      DEBUG=false,
-      DEFAULT_FILTER=1,
-      DEFAULT_ROTATION=false,
-      DIFFICULTY="normal",
-      DISPLAY_COLORED_STATS=true,
-      DISPLAY_TARGET_BADGE=true,
-      DISPLAY_TEAMMATES_DEBUFFS=false,
-      ["Damage Number Options"]=0,
-      ["Detailed Summary Options"]=0,
-      FORCE_START_DELAY_TIME=30,
-      FRIENDLY_FIRE=false,
-      ["Filter Options"]=0,
-      GAMETYPE="forge",
-      GIFT_SIDE="right",
-      ["Gameplay Settings"]=0,
-      HIDE_INDICATORS=true,
-      JOINABLE_MIDMATCH=true,
-      LOBBY_GEAR=true,
-      ["Lobby Options"]=0,
-      MOB_ATTACK_RATE=1,
-      MOB_DAMAGE_DEALT=1,
-      MOB_DAMAGE_TAKEN=1,
-      MOB_DUPLICATOR=1,
-      MOB_HEALTH=1,
-      MOB_SIZE=1,
-      MOB_SPEED=1,
-      MODE="forge_s02",
-      Mutators=0,
-      NO_HUD=false,
-      NO_REVIVES=false,
-      NO_SLEEP=false,
-      ONLY_SHOW_NONZERO_STATS=true,
-      Other=0,
-      PING_KEYBIND="KEY_R",
-      PING_TRANSPARENCY=100,
-      PLAYER_DEBUFF_DISPLAY="mini",
-      ["Player HUD Options"]=0,
-      RESERVE_SLOTS=true,
-      ROTATION=0,
-      SANDBOX=false,
-      SERVER_ACHIEVEMENTS=false,
-      SERVER_LEVEL=false,
-      SPECTATORS_ONLY=true,
-      SPECTATOR_ON_DEATH=false,
-      VOTE_FORCE_START=true,
-      VOTE_GAME_SETTINGS=true,
-      VOTE_KICK=true,
-      Vote=0,
-      WAVESET="swineclops" 
-    },
-    enabled=true 
-  } 
+    enabled=true
+  },
+  ["workshop-2633870801"]={
+    enabled=true
+  },
+  ["workshop-2038128735"]={
+    enabled=true
+  }
+
 }
