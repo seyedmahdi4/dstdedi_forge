@@ -26,15 +26,17 @@ This will create 'cluster_token.txt' in your client settings directory. Copy thi
 
 klei/DoNotStarveTogether/******/Cluster_1/Master/cluster_token.txt or ....
 
-example:
+##### example:
 
 run:
 - ```docker run --name dst -e "CLUSTER_TOKEN=....." -e "CLUSTER_NAME=reforged server' seyedmahdi3/dstdedi_forge:0.1```
 
 run with pugnax:
 - ```docker run --name dst -e PUGNAX=TRUE -e "CLUSTER_TOKEN=....." -e "CLUSTER_NAME=reforged server' seyedmahdi3/dstdedi_forge:0.1```
+
 run with hollowed:
 - ```docker run --name dst -e HALLOWED=TRUE -e "CLUSTER_TOKEN=....." -e "CLUSTER_NAME=reforged server' seyedmahdi3/dstdedi_forge:0.1```
+
 stop:
 - ```docker stop dst```
 
