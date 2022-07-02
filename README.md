@@ -29,13 +29,13 @@ klei/DoNotStarveTogether/******/Cluster_1/Master/cluster_token.txt or ....
 ##### example:
 
 run:
-- ```docker run --name dst -e "CLUSTER_TOKEN=....." -e "CLUSTER_NAME=reforged server' seyedmahdi3/dstdedi_forge:0.1```
+- ```docker run --name dst -e "CLUSTER_TOKEN=....." -e "CLUSTER_NAME=reforged server' seyedmahdi3/dstdedi_forge:latest```
 
 run with pugnax:
-- ```docker run --name dst -e PUGNAX=TRUE -e "CLUSTER_TOKEN=....." -e "CLUSTER_NAME=reforged server' seyedmahdi3/dstdedi_forge:0.1```
+- ```docker run --name dst -e PUGNAX=TRUE -e "CLUSTER_TOKEN=....." -e "CLUSTER_NAME=reforged server' seyedmahdi3/dstdedi_forge:latest```
 
 run with hollowed:
-- ```docker run --name dst -e HALLOWED=TRUE -e "CLUSTER_TOKEN=....." -e "CLUSTER_NAME=reforged server' seyedmahdi3/dstdedi_forge:0.1```
+- ```docker run --name dst -e HALLOWED=TRUE -e "CLUSTER_TOKEN=....." -e "CLUSTER_NAME=reforged server' seyedmahdi3/dstdedi_forge:latest```
 
 stop:
 - ```docker stop dst```
