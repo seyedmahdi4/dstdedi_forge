@@ -1,5 +1,7 @@
 ### Don't starve together Reforged Server
 
+# merge to https://github.com/seyedmahdi4/dstdedi
+
 #### envirement variables:
 
 - CLUSTER_TOKEN       -> require
